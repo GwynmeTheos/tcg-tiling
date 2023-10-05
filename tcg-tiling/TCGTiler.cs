@@ -12,7 +12,7 @@ namespace tcg_tiling
 
         }
 
-        private void CardSizeToolTip_Popup(object sender, PopupEventArgs e)
+        private void GenButton_Click(object sender, EventArgs e)
         {
 
         }

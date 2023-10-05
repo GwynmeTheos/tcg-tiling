@@ -115,6 +115,7 @@
             CustomCardRadio.TabIndex = 4;
             CustomCardRadio.TabStop = true;
             CustomCardRadio.Text = "Custom";
+            CardSizeToolTip.SetToolTip(CustomCardRadio, "Provide measurements in pixels");
             CustomCardRadio.UseVisualStyleBackColor = true;
             // 
             // cardHeight
@@ -221,6 +222,7 @@
             CustomPageRadio.TabIndex = 12;
             CustomPageRadio.TabStop = true;
             CustomPageRadio.Text = "Custom";
+            PageSizeToolTip.SetToolTip(CustomPageRadio, "Provide measurements in pixels");
             CustomPageRadio.UseVisualStyleBackColor = true;
             // 
             // pageHeight
@@ -369,6 +371,7 @@
             GenButton.TabIndex = 18;
             GenButton.Text = "Generate";
             GenButton.UseVisualStyleBackColor = true;
+            GenButton.Click += GenButton_Click;
             // 
             // GenProgress
             // 
@@ -376,10 +379,6 @@
             GenProgress.Name = "GenProgress";
             GenProgress.Size = new Size(279, 44);
             GenProgress.TabIndex = 19;
-            // 
-            // CardSizeToolTip
-            // 
-            CardSizeToolTip.Popup += CardSizeToolTip_Popup;
             // 
             // TCGTiler
             // 
