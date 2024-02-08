@@ -104,6 +104,7 @@
             MTGRadio.TabStop = true;
             MTGRadio.Text = "MTG";
             CardSizeToolTip.SetToolTip(MTGRadio, "3.5in by 2.5in\r\n88.9mm by 63.5mm\r\n1050px by 750px");
+            MTGRadio.Checked= true;
             MTGRadio.UseVisualStyleBackColor = true;
             // 
             // CustomCardRadio
@@ -290,6 +291,7 @@
             A7Radio.TabStop = true;
             A7Radio.Text = "A7";
             PageSizeToolTip.SetToolTip(A7Radio, "4.1in by 2.9in\r\n105mm by 74mm\r\n1240px by 874px");
+            A7Radio.Checked = true;
             A7Radio.UseVisualStyleBackColor = true;
             // 
             // A5Radio
@@ -379,6 +381,9 @@
             GenProgress.Name = "GenProgress";
             GenProgress.Size = new Size(279, 44);
             GenProgress.TabIndex = 19;
+            GenProgress.Value = 0;
+            GenProgress.Step = 1;
+            GenProgress.Visible = true;
             // 
             // TCGTiler
             // 
